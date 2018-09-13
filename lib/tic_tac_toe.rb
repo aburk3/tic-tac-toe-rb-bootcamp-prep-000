@@ -82,7 +82,7 @@ def over?(board)
 end
  
 def winner(board)
-    if winnerChickenDinner = won?(board)
-      board[winnerChickenDinner.first]
-    end
+  if winnerChickenDinner = won?(board)
+    board[winnerChickenDinner.first]
   end
+end
