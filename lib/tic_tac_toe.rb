@@ -86,3 +86,5 @@ def winner(board)
     board[winnerChickenDinner.first]
   end
 end
+
+def play()
