@@ -80,4 +80,9 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
-  
+ 
+def winner(board)
+    if winnerChickenDinner = won?(board)
+      board[winnerChickenDinner.first]
+    end
+  end
