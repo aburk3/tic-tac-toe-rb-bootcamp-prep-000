@@ -1,6 +1,6 @@
 puts "Welcome to Tic Tac Toe!"
 
-board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 WIN_COMBINATIONS = [
   [0,1,2],
