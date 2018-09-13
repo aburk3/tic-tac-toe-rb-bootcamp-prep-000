@@ -1,5 +1,7 @@
 puts "Welcome to Tic Tac Toe!"
 
+board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
